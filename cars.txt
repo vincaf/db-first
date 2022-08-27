@@ -1,0 +1,24 @@
+// TRACCIA:
+// Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+id - intero - SMALLINT - PRIMARY_KEY - AUTO_INCREMENT
+km_percorsi - intero - MEDIUMINT - NOTNULL 
+marca - stringa - VARCHAR(50) - NOTNULL
+modello - stringa - VARCHAR(50) - NOTNULL
+anno_produzione - date - YEAR - NOTNULL
+meccanica_cambio - intero - TINYINT - NOTNULL
+marce - intero - TINYINT - NOTNULL
+trazione - string - VARCHAR(10) - NOTNULL
+cilindrata - intero - SMALLINT - NULL
+classe_inquinamento - intero - TINYINT - NULL
+consumo - stringa - VARCHAR(10) - NOTNULL
+posti - intero - TINYINT - NOTNULL
+colore_carrozzeria - intero - TINYINT - NULL
+colore_interni - intero - TINYINT - NULL
+prezzo_di_mercato - intero - MEDIUMINT - NULL
+prezzo_rivendita - intero - MEDIUMINT - NOTNULL
+tipo_di_carburante - string - VARCHAR(10) - NOTNULL
+tipologia_di_macchina - string - VARCHAR(10) - NULL 
+finanziamento - boolean - TINYINT - NOTNULL 
+disponibilità - boolean - TINYINT - NOTNULL 
+descrizione - stringa - TEXT - NULL
